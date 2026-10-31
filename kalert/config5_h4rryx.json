@@ -1,0 +1,157 @@
+{
+    "enable": true,
+    "configVersion": 1000,
+    "delay": 0,
+    "openTG": false,
+    "openTGURL": "https://telegram.me/H4rryX1",
+    "title": "H4rryX · Chia sẻ miễn phí, cấm bán lại",
+    "notice": "Plugin H4rryX chia sẻ miễn phí cho cộng đồng, nghiêm cấm mua bán. Tham gia kênh TG để nhận bản cập nhật mới nhất, cần hỗ trợ hãy vào nhóm chat.",
+    "dismissTitle": "Tôi đã hiểu",
+    "dismissMode": "normal",
+    "requiredActionTitle": "Hãy tham gia kênh TG hoặc nhóm chat trước",
+    "displayPolicy": "once",
+    "configRevision": "2026-10-31-h4rryx-v1",
+    "startAt": 0,
+    "endAt": 0,
+    "blacklist": [
+        "com.apple.springboard",
+        "com.apple.Preferences",
+        "com.apple.AppStore"
+    ],
+    "links": {
+        "channel": "https://telegram.me/harryxdkh",
+        "feedback": "https://telegram.me/H4rryX1chat",
+        "website": "https://github.com/hoaipro2/logo",
+        "cert": "https://telegram.me/harryxdkh"
+    },
+    "buttons": {
+        "channel": {
+            "title": "Tham gia kênh TG",
+            "show": true
+        },
+        "feedback": {
+            "title": "Vào nhóm chat",
+            "show": true
+        },
+        "website": {
+            "title": "GitHub H4rryX",
+            "show": true
+        },
+        "cert": {
+            "title": "Mua chứng chỉ",
+            "show": false
+        }
+    },
+    "update": {
+        "enable": false,
+        "version": "1.0.0",
+        "force": false,
+        "title": "Có bản mới",
+        "message": "Đã có bản H4rryX mới, hãy cập nhật.",
+        "buttonTitle": "Cập nhật ngay",
+        "laterTitle": "Để sau",
+        "downloadURL": "https://github.com/hoaipro2/logo"
+    },
+    "analytics": {
+        "enable": false,
+        "url": "https://raw.githubusercontent.com/hoaipro2/logo/main/kalert/config5.json"
+    },
+    "localizations": {
+        "vi": {
+            "title": "H4rryX · Chia sẻ miễn phí, cấm bán lại",
+            "notice": "Plugin H4rryX chia sẻ miễn phí cho cộng đồng, nghiêm cấm mua bán. Tham gia kênh TG để nhận bản cập nhật mới nhất, cần hỗ trợ hãy vào nhóm chat.",
+            "dismissTitle": "Tôi đã hiểu",
+            "requiredActionTitle": "Hãy tham gia kênh TG hoặc nhóm chat trước",
+            "buttons": {
+                "channel": "Tham gia kênh TG",
+                "feedback": "Vào nhóm chat",
+                "website": "GitHub H4rryX",
+                "cert": "Mua chứng chỉ"
+            },
+            "update": {
+                "title": "Có bản mới",
+                "message": "Đã có bản H4rryX mới, hãy cập nhật.",
+                "buttonTitle": "Cập nhật ngay",
+                "laterTitle": "Để sau"
+            },
+            "accessibility": {
+                "openLinkHint": "Mở liên kết liên quan",
+                "dismissHint": "Đóng thông báo này",
+                "appIconLabel": "Icon ứng dụng"
+            }
+        },
+        "en": {
+            "title": "H4rryX · Free sharing, resale prohibited",
+            "notice": "H4rryX plugin is shared free of charge and must not be resold. Join the TG channel for updates or the group chat for support.",
+            "dismissTitle": "Got it",
+            "requiredActionTitle": "Join the TG channel or group chat first",
+            "buttons": {
+                "channel": "Join TG Channel",
+                "feedback": "Group Chat",
+                "website": "H4rryX GitHub",
+                "cert": "Buy Certificate"
+            },
+            "update": {
+                "title": "Update Available",
+                "message": "A new H4rryX version is available. Please update.",
+                "buttonTitle": "Update Now",
+                "laterTitle": "Later"
+            },
+            "accessibility": {
+                "openLinkHint": "Opens the related link",
+                "dismissHint": "Dismisses this notice",
+                "appIconLabel": "App icon"
+            }
+        }
+    },
+    "issuedAt": 1793411209,
+    "expiresAt": 1856483209,
+    "popupEnable": true,
+    "featureEnable": true,
+    "deviceVerification": {
+        "enable": false,
+        "url": "https://raw.githubusercontent.com/hoaipro2/logo/main/kalert/config5.json",
+        "profileURL": "https://raw.githubusercontent.com/hoaipro2/logo/main/kalert/config5.json",
+        "cacheTTL": 21600,
+        "maxAttempts": 3,
+        "failureAction": "disable",
+        "exemptBundleIDs": [],
+        "bundleIDs": [],
+        "displayTimeoutSeconds": 10,
+        "successMode": "auto",
+        "successEveryColdStart": false,
+        "successDisplaySeconds": 2,
+        "mode": "include",
+        "recoveryMode": "browser",
+        "browserRecoveryURL": "https://raw.githubusercontent.com/hoaipro2/logo/main/kalert/config5.json"
+    },
+    "trial": {
+        "enable": false,
+        "durationSeconds": 1200000,
+        "endAction": "terminate",
+        "bundleIDs": []
+    },
+    "featureModules": {},
+    "gameHandshake": {
+        "enable": false,
+        "required": false,
+        "url": "https://raw.githubusercontent.com/hoaipro2/logo/main/kalert/config5.json",
+        "cacheTTL": 900
+    },
+    "telegramBinding": {
+        "enable": false,
+        "endpoint": "https://raw.githubusercontent.com/hoaipro2/logo/main/kalert/config5.json",
+        "botUsername": "H4rryX1bot",
+        "webhookURL": "https://raw.githubusercontent.com/hoaipro2/logo/main/kalert/config5.json",
+        "ticketTTL": 600,
+        "membershipCacheTTL": 21600,
+        "defaultRequiredChats": [],
+        "appRules": [],
+        "autoGenerateCard": false,
+        "checkInEnable": false,
+        "checkInRewardDays": 1,
+        "checkInIntervalSeconds": 86400
+    },
+    "toolboxEnable": true,
+    "signature": "Drci7KEuQ3AUeLWa4RGokgN9YXGsUjS3p31KsZW3wK83gb37I16J65tHJNctTxc6aBQI5cGVtbphKIWRMQzZKsFESdFzXwxtxT0anbBpQsj40gz2m1rjQXs8AjgdNhMKwkuPXK45io69gj6XZeFTEOAOIzScsc47jft0NXfddklWjetXLsHtQOZjgIyFghJBocfYsruvZhqINWuLQ2kasgXW8+JL6IS/o8o8ewlFcm30qmgPWM53vWNX4ap8KJ/3/cwbl5RFgNnZeblikUVDbpJDKfoa/6bOo2DAomIgrrNun/mKWbYyAgkeDCE8rjiw+53hKc6IFmU5NEb2brOa7g=="
+}
