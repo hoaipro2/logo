@@ -1,0 +1,160 @@
+{
+    "enable": true,
+    "configVersion": 2000,
+    "delay": 0,
+    "openTG": false,
+    "openTGURL": "https://telegram.me/H4rryX1",
+    "title": "H4rryX · CounterFlame — Chia sẻ miễn phí, cấm bán lại",
+    "notice": "Plugin H4rryX cho CounterFlame chia sẻ miễn phí cho cộng đồng, nghiêm cấm mua bán. Tham gia kênh TG để nhận bản cập nhật mới nhất, cần hỗ trợ hãy vào nhóm chat.",
+    "dismissTitle": "Tôi đã hiểu",
+    "dismissMode": "normal",
+    "requiredActionTitle": "Hãy tham gia kênh TG hoặc nhóm chat trước",
+    "displayPolicy": "once",
+    "configRevision": "2026-11-15-h4rryx-cf-v1",
+    "startAt": 0,
+    "endAt": 0,
+    "blacklist": [
+        "com.apple.springboard",
+        "com.apple.Preferences",
+        "com.apple.AppStore"
+    ],
+    "links": {
+        "channel": "https://telegram.me/harryxdkh",
+        "feedback": "https://telegram.me/H4rryX1chat",
+        "website": "",
+        "cert": "https://telegram.me/harryxdkh"
+    },
+    "buttons": {
+        "channel": {
+            "title": "Tham gia kênh TG",
+            "show": true
+        },
+        "feedback": {
+            "title": "Vào nhóm chat",
+            "show": true
+        },
+        "website": {
+            "title": "",
+            "show": false
+        },
+        "cert": {
+            "title": "Mua chứng chỉ",
+            "show": false
+        }
+    },
+    "update": {
+        "enable": false,
+        "version": "5.8.80",
+        "force": false,
+        "title": "Có bản mới",
+        "message": "Đã có bản H4rryX mới, hãy cập nhật.",
+        "buttonTitle": "Cập nhật ngay",
+        "laterTitle": "Để sau",
+        "downloadURL": ""
+    },
+    "analytics": {
+        "enable": false,
+        "url": "https://raw.githubusercontent.com/hoaipro2/logo/main/kalertcf/config5.json"
+    },
+    "localizations": {
+        "vi": {
+            "title": "H4rryX · CounterFlame — Chia sẻ miễn phí, cấm bán lại",
+            "notice": "Plugin H4rryX cho CounterFlame chia sẻ miễn phí cho cộng đồng, nghiêm cấm mua bán. Tham gia kênh TG để nhận bản cập nhật mới nhất, cần hỗ trợ hãy vào nhóm chat.",
+            "dismissTitle": "Tôi đã hiểu",
+            "requiredActionTitle": "Hãy tham gia kênh TG hoặc nhóm chat trước",
+            "buttons": {
+                "channel": "Tham gia kênh TG",
+                "feedback": "Vào nhóm chat",
+                "website": "",
+                "cert": "Mua chứng chỉ"
+            },
+            "update": {
+                "title": "Có bản mới",
+                "message": "Đã có bản H4rryX mới, hãy cập nhật.",
+                "buttonTitle": "Cập nhật ngay",
+                "laterTitle": "Để sau"
+            },
+            "accessibility": {
+                "openLinkHint": "Mở liên kết liên quan",
+                "dismissHint": "Đóng thông báo này",
+                "appIconLabel": "Icon ứng dụng"
+            }
+        },
+        "en": {
+            "title": "H4rryX · CounterFlame — Free sharing, resale prohibited",
+            "notice": "The H4rryX plugin for CounterFlame is shared free of charge and must not be resold. Join the TG channel for updates or the group chat for support.",
+            "dismissTitle": "Got it",
+            "requiredActionTitle": "Join the TG channel or group chat first",
+            "buttons": {
+                "channel": "Join TG Channel",
+                "feedback": "Group Chat",
+                "website": "",
+                "cert": "Buy Certificate"
+            },
+            "update": {
+                "title": "Update Available",
+                "message": "A new H4rryX version is available. Please update.",
+                "buttonTitle": "Update Now",
+                "laterTitle": "Later"
+            },
+            "accessibility": {
+                "openLinkHint": "Opens the related link",
+                "dismissHint": "Dismisses this notice",
+                "appIconLabel": "App icon"
+            }
+        }
+    },
+    "issuedAt": 1794700000,
+    "expiresAt": 1889308000,
+    "popupEnable": true,
+    "featureEnable": true,
+    "deviceVerification": {
+        "enable": false,
+        "url": "https://raw.githubusercontent.com/hoaipro2/logo/main/kalertcf/config5.json",
+        "profileURL": "https://raw.githubusercontent.com/hoaipro2/logo/main/kalertcf/config5.json",
+        "cacheTTL": 21600,
+        "maxAttempts": 3,
+        "failureAction": "disable",
+        "exemptBundleIDs": [],
+        "bundleIDs": [
+            "com.ScarletWork.CounterFlame"
+        ],
+        "displayTimeoutSeconds": 10,
+        "successMode": "auto",
+        "successEveryColdStart": false,
+        "successDisplaySeconds": 2,
+        "mode": "include",
+        "recoveryMode": "browser",
+        "browserRecoveryURL": "https://raw.githubusercontent.com/hoaipro2/logo/main/kalertcf/config5.json"
+    },
+    "trial": {
+        "enable": false,
+        "durationSeconds": 1200000,
+        "endAction": "terminate",
+        "bundleIDs": []
+    },
+    "featureModules": {},
+    "gameHandshake": {
+        "enable": false,
+        "required": false,
+        "url": "https://raw.githubusercontent.com/hoaipro2/logo/main/kalertcf/config5.json",
+        "cacheTTL": 900
+    },
+    "telegramBinding": {
+        "enable": false,
+        "endpoint": "https://raw.githubusercontent.com/hoaipro2/logo/main/kalertcf/config5.json",
+        "botUsername": "H4rryX1bot",
+        "webhookURL": "https://raw.githubusercontent.com/hoaipro2/logo/main/kalertcf/config5.json",
+        "ticketTTL": 600,
+        "membershipCacheTTL": 21600,
+        "defaultRequiredChats": [],
+        "appRules": [],
+        "autoGenerateCard": false,
+        "checkInEnable": false,
+        "checkInRewardDays": 1,
+        "checkInIntervalSeconds": 86400
+    },
+    "toolboxEnable": true,
+    "hostAction": "none",
+    "signature": "MdwxUr4bfZ7Ui0jk6oKjkJyBG2ItTZf+AQT5pfMFsUD2itEKnfXcl4CGUCrOJz5ugIwVaMyS6Nto8lIr+xhCoTOsMyCexbbbm1NxlQxuffOOT+8aGhHD43ysteS1r+6nOyoWZQFYkz1BxpqO4lSYdk6uQCWFug8ixeT5i1mdn6OCA6YFMN7l8p4b8XpFIhrMwrbrrFEA9BhtPJMZU7BtTd+JJ03UokB27TzvtZI/OQucuxk9m6V+k7qSKssAVgbCp7w7WgND0bjupfMKeEp9fWxgC9927T1AzWoZ6Aj4+YBCQZxpkMvNveMpTDtPmlKZYt8wnMw26ptKHXdzxegRGg=="
+}
